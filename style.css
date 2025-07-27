@@ -1,0 +1,75 @@
+/* body styling */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* heading class */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 60%;
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+/* buffer div and horizontal sections */
+.buffer {
+  margin: 30px auto;
+  width: 90%;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.section {
+  width: 25%;
+  background-color: #ddd;
+  padding: 15px;
+}
+
+/* navigation links */
+nav a {
+  margin: 0 10px;
+  color: navy;
+  text-decoration: none;
+}
+nav a:hover {
+  color: red;
+}
+nav a:visited {
+  color: purple;
+}
+nav a:active {
+  color: green;
+}
+
+/* content block */
+.content {
+  margin: 40px auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* footer */
+.footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #888;
+}
+@media only screen and (max-width: 575px) {
+  .education, .experience, .links {
+    float: none;
+    width: 90%;
+    margin: auto;
+  }
+
+  .links {
+    height: auto;
+  }
+}
