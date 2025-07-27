@@ -1,9 +1,11 @@
 /* body styling */
 body {
   background-color: #f4f4f4;
+  color: #222222;  /* Added for contrast */
   font-family: Arial, sans-serif;
   text-align: center;
 }
+
 
 /* heading class */
 .header {
